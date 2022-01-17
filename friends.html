@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Login - ZGTalk</title>
+    <title>Friends - ZGTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -16,21 +16,22 @@
       </div>
     </div>
 
-    <main class="welcome-header">
-      <div class="welcome-header__text">
-        <h3>Welcome to ZGTalk</h3>
-        <h5>
-          If you have a ZzangGu Account, log in with your email or phone number.
-        </h5>
+    <header class="screen-header">
+      <div class="screen-header__title">Friends</div>
+      <div class="screen-header__icons">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-music fa-lg"></i>
+        <a href="settings.html"
+          ><i class="fas fa-cog fa-lg"></i>
+          <div class="dot"></div>
+        </a>
       </div>
-    </main>
+    </header>
 
-    <form class="login-input" action="friends.html" method="get">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+    <a href="#" class="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friend's Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&family=Sansita+Swashed:wght@300;400;500;600;800&display=swap");
+/* Outfit 200 300 400 600 Sansita Swashed 300 400 500 600 800 */
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+  font-family: outfit;
+
+  height: 200vh;
+}
+
+main {
+  padding: 0px var(--horizontal-space);
+}
