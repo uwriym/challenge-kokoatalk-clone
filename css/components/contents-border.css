@@ -1,0 +1,16 @@
+.contents-border {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin-top: 18px;
+  border-top: var(--border-one);
+}
+
+.contents-border__title,
+.contents-border i {
+  opacity: 0.5;
+}
+
+.contents-border__title {
+  font-size: 15px;
+}
