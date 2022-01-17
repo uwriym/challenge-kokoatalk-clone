@@ -18,19 +18,16 @@
 .screen-header__icons {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .screen-header__icons i {
   margin-left: 20px;
 }
 
-.screen-header__icons .fa-cog {
-  position: relative;
-}
-
-.dot {
+.cog-dot {
   position: absolute;
-  top: 23px;
-  right: 20px;
+  top: -8px;
+  right: -6px;
   width: 5px;
   height: 5px;
   background-color: tomato;
