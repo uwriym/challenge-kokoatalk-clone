@@ -1,0 +1,169 @@
+.more {
+  margin-top: 105px;
+}
+
+.invalid-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid red;
+  border-radius: 50%;
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 1px 2px 1px 1px;
+}
+
+.zgpay {
+  background-color: var(--brown);
+  padding: 10px 25px 20px 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.zgpay__column {
+  display: flex;
+  justify-content: space-between;
+}
+.zgpay__icon {
+  display: flex;
+  align-items: center;
+}
+.zgpay__column .fa-comment {
+  font-size: 15px;
+  margin-right: 1px;
+}
+.zgpay__icon span,
+.zgpay__money {
+  font-weight: 600;
+}
+.zgpay__column:first-child {
+  margin-bottom: 15px;
+}
+.zgpay__menu {
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+.zgpay__menu span {
+  text-align: center;
+}
+.zgpay__menu__border {
+  width: 1px;
+  height: 13px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.weather__column {
+  display: flex;
+}
+.weather__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@keyframes cloudy {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-2.5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.weather .fa-cloud {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+  animation: cloudy 1.5s linear infinite;
+}
+.weather__temperature {
+  font-size: 40px;
+  margin-right: 10px;
+}
+.temperature-info {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+.dust-info {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.dust-info span {
+  color: orange;
+  margin-left: 3px;
+}
+.weather__column:last-child {
+  border: var(--border-two);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px 2px 2px;
+  transition: all 0.3s ease-in-out;
+}
+.weather__column:last-child .fa-location-arrow {
+  font-size: 13px;
+  opacity: 0.7;
+}
+.weather__column:last-child:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.insta-ad {
+  margin-top: 33px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+.insta-ad img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.insta-ad:hover {
+  transform: scale(1.025);
+}
+.ad-mark {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 10px;
+  padding: 4px 6px;
+  text-align: center;
+}
+.ad-content {
+  position: absolute;
+  bottom: 7px;
+  left: 7px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 7px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.fa-instagram {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 30px;
+}

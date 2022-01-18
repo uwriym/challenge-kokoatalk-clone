@@ -16,10 +16,11 @@
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
   font-family: outfit;
-  height: 200vh;
+  margin-bottom: 100px;
 }
 
 main {
@@ -27,14 +28,14 @@ main {
 }
 
 body::-webkit-scrollbar {
-  width: 15px;
+  width: 12px;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   background-clip: padding-box;
-  border: 2.5px solid transparent;
+  border: 2.8px solid transparent;
 }
 
 body::-webkit-scrollbar-track {

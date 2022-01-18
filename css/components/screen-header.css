@@ -22,6 +22,7 @@
 }
 .screen-header__icons i {
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .cog-dot {

@@ -14,7 +14,8 @@
 .user-component__column .user-component__icon {
   margin-right: 15px;
 }
-.user-component__profile img {
+.user-component__profile img,
+.user-component__more img {
   width: 70px;
   height: 70px;
   border-radius: 30px;
@@ -103,9 +104,12 @@
   margin-right: 5px;
   font-size: 15px;
 }
+.user-component__channel .user-component__column:last-child i {
+  font-size: 15px;
+}
 
 .user-component__channel .user-component__column i {
-  font-size: 14px;
+  font-size: 32px;
 }
 
 .user-component__friends .profile-music {
@@ -131,4 +135,23 @@
   background-color: var(--brown);
   border-radius: 5px;
   padding: 7px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.user-component__recommended-friends .register-friend:hover {
+  background-color: rgb(173, 143, 103);
+}
+.user-component__more .fa-comment-alt {
+  font-size: 25px;
+}
+.user-component__more {
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 0;
+  background-color: var(--brown);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.user-component__more .user-component__subtitle {
+  display: flex;
 }

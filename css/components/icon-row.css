@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 
 .icon-row__column {
@@ -10,8 +10,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
-
+.icon-row__column:hover {
+  transform: scale(1.1);
+}
 .icon-row__icon {
   height: 40px;
   display: flex;
