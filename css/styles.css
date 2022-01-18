@@ -25,3 +25,18 @@ body {
 main {
   padding: 0px var(--horizontal-space);
 }
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  background-clip: padding-box;
+  border: 2.5px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}

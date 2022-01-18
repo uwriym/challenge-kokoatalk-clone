@@ -29,6 +29,11 @@
   height: 55px;
   border-radius: 25px;
 }
+.user-component__recommended-friends img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
 
 .user-component__title {
   font-size: 20px;
@@ -117,4 +122,13 @@
 .user-component__friends .profile-music i {
   color: #00cd3c;
   margin-left: 5px;
+}
+
+.user-component__recommended-friends .register-friend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown);
+  border-radius: 5px;
+  padding: 7px 10px;
 }
