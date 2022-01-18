@@ -8,7 +8,8 @@
 }
 
 .contents-border__title,
-.contents-border i {
+.contents-border i,
+.contents-border__subtitle span {
   opacity: 0.5;
 }
 
@@ -18,4 +19,15 @@
 
 .contents-border i {
   font-size: 13px;
+}
+
+.contents-border__subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.contents-border__subtitle i {
+  font-size: 15px;
+  margin-left: 5px;
+  opacity: 0.2;
 }

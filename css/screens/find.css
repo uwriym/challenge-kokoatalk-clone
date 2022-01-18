@@ -1,3 +1,81 @@
 .find {
   margin-top: 102px;
 }
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom: var(--border-one);
+}
+
+.open-post__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.open-post__title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.open-post__subtitle {
+  font-size: 17px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__members-count {
+  opacity: 0.5;
+  font-size: 16px;
+}
+.open-post__members-bar {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 5px;
+}
+.open-post__members-status {
+  font-size: 16px;
+  color: #f888cb;
+}
+
+.open-post__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.open-post__column:last-child {
+  position: relative;
+}
+.open-post__heart-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.open-post__heart-count i {
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  font-size: 14px;
+  margin-left: 3px;
+}
