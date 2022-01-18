@@ -15,11 +15,16 @@
   margin-right: 15px;
 }
 .user-component__profile img {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
 }
 .user-component__chats img {
+  width: 62px;
+  height: 62px;
+  border-radius: 25px;
+}
+.user-component__friends img {
   width: 55px;
   height: 55px;
   border-radius: 25px;
@@ -86,8 +91,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.5;
 }
 
 .user-component__channel .user-component__column:last-child span {
   margin-right: 5px;
+  font-size: 15px;
+}
+
+.user-component__channel .user-component__column i {
+  font-size: 14px;
+}
+
+.user-component__friends .profile-music {
+  border: 1px solid #00cd3c;
+  border-radius: 25px;
+  padding: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.user-component__friends .profile-music span {
+  opacity: 0.8;
+}
+.user-component__friends .profile-music i {
+  color: #00cd3c;
+  margin-left: 5px;
 }

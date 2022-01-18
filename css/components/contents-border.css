@@ -1,8 +1,9 @@
 .contents-border {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 0px;
-  margin-top: 18px;
+  margin-top: 15px;
   border-top: var(--border-one);
 }
 
@@ -13,4 +14,8 @@
 
 .contents-border__title {
   font-size: 15px;
+}
+
+.contents-border i {
+  font-size: 13px;
 }
