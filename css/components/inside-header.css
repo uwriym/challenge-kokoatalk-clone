@@ -13,3 +13,7 @@
 .inside-header__title {
   font-size: 25px;
 }
+.inside-header__column:not(:nth-child(2)) {
+  width: 25px;
+  text-align: center;
+}

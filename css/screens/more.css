@@ -2,19 +2,8 @@
   margin-top: 105px;
 }
 
-.invalid-number {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5px;
-  width: 10px;
-  height: 10px;
-  border: 2px solid red;
-  border-radius: 50%;
+.user-component__more .fa-exclamation-circle {
   color: red;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 1px 2px 1px 1px;
 }
 
 .zgpay {
@@ -35,7 +24,7 @@
 }
 .zgpay__column .fa-comment {
   font-size: 15px;
-  margin-right: 1px;
+  margin-right: 2px;
 }
 .zgpay__icon span,
 .zgpay__money {
@@ -83,7 +72,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(-2.5px);
+    transform: translateY(-3px);
   }
   100% {
     transform: none;
@@ -93,7 +82,7 @@
   font-size: 40px;
   color: rgba(0, 0, 0, 0.5);
   margin-right: 5px;
-  animation: cloudy 1.5s linear infinite;
+  animation: cloudy 1.8s linear infinite;
 }
 .weather__temperature {
   font-size: 40px;
