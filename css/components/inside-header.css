@@ -1,0 +1,15 @@
+.inside-header {
+  position: fixed;
+  top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: var(--horizontal-space);
+  box-sizing: border-box;
+}
+
+.inside-header__column i,
+.inside-header__title {
+  font-size: 25px;
+}

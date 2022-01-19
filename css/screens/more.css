@@ -22,6 +22,7 @@
   padding: 10px 25px 20px 25px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-family: outfit;
 }
 
 .zgpay__column {
@@ -57,12 +58,15 @@
   height: 13px;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
+.weather-title {
+  font-family: outfit;
+}
 .weather {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
+  font-family: outfit;
 }
 
 .weather__column {
@@ -131,6 +135,7 @@
   margin-top: 33px;
   transition: all 0.5s ease-in-out;
   position: relative;
+  font-family: outfit;
 }
 .insta-ad img {
   width: 100%;

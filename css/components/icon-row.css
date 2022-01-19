@@ -20,6 +20,7 @@
   height: 40px;
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .icon-row__title {

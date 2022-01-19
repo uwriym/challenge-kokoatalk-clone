@@ -1,0 +1,40 @@
+.settings-div1 {
+  margin-top: 110px;
+}
+
+.settings-border {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.settings-setting:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.settings-setting__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.settings-setting__icon {
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.settings-setting__title {
+  font-size: 20px;
+}
+.settings-setting__subtitle {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}

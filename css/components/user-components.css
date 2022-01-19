@@ -112,7 +112,7 @@
   font-size: 32px;
 }
 
-.user-component__friends .profile-music {
+.user-component .profile-music {
   border: 1px solid #00cd3c;
   border-radius: 25px;
   padding: 4px;
@@ -120,12 +120,13 @@
   display: flex;
   align-items: center;
 }
-.user-component__friends .profile-music span {
+.user-component .profile-music span {
   opacity: 0.8;
 }
-.user-component__friends .profile-music i {
+.user-component .profile-music i {
   color: #00cd3c;
   margin-left: 5px;
+  font-size: 14px;
 }
 
 .user-component__recommended-friends .register-friend {
@@ -139,7 +140,7 @@
   transition: background-color 0.3s ease-in-out;
 }
 .user-component__recommended-friends .register-friend:hover {
-  background-color: rgb(173, 143, 103);
+  background-color: rgb(156, 126, 87);
 }
 .user-component__more .fa-comment-alt {
   font-size: 25px;
