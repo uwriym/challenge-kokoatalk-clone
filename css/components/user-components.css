@@ -1,8 +1,13 @@
 .user-component {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+}
+.find .user-component {
+  margin-bottom: 10px;
+}
+.user-component:not(.chats .user-component) {
+  align-items: center;
 }
 
 .user-component__column:first-child {
@@ -50,7 +55,7 @@
 
 .user-component__column .user-component__time {
   opacity: 0.6;
-  margin-bottom: 5px;
+  margin: 10px 0px 5px 0px;
 }
 
 .user-component .user-component__noti {
@@ -183,7 +188,4 @@
 .user-component__chats .user-component__title .me span {
   display: block;
   padding-top: 2px;
-}
-.user-component__chats:last-child .user-component__column:last-child {
-  margin-bottom: 20px;
 }

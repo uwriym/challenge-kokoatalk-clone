@@ -26,8 +26,9 @@
 .login-input input {
   border: none;
   padding: 15px 0px;
-  margin-bottom: 20px;
   font-size: 18px;
+  background-color: var(--brown-two);
+  border-radius: 10px;
 }
 
 .login-input input[type="submit"] {
@@ -36,11 +37,13 @@
   background-color: var(--brown);
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .login-input input:not([type="submit"]) {
-  border-bottom: var(--border-five);
-  transition: border-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
 
 .login-input input:not([type="submit"])::placeholder {
@@ -49,7 +52,7 @@
 }
 
 .login-input input:not([type="submit"]):focus {
-  border-color: var(--brown);
+  background-color: var(--brown-six);
 }
 
 .login-input a {

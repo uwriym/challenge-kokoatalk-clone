@@ -4,8 +4,8 @@
   width: 100%;
   padding: 25px 50px;
   box-sizing: border-box;
-  background-color: rgb(243, 243, 243);
-  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  background-color: #daccb5;
+  border-top: 1.5px solid var(--brown-four);
 }
 
 .nav-list {
