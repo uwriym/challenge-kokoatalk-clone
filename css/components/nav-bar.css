@@ -4,7 +4,7 @@
   width: 100%;
   padding: 25px 50px;
   box-sizing: border-box;
-  background-color: #daccb5;
+  background-color: #d2c1a7;
   border-top: 1.5px solid var(--brown-four);
 }
 
@@ -36,6 +36,7 @@
   align-items: center;
   color: white;
   font-size: 15px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-dot {
@@ -46,4 +47,8 @@
   height: 6px;
   background-color: tomato;
   border-radius: 50%;
+}
+
+.nav-btn:nth-child(2):hover .noti-dot {
+  transform: translateY(-3px);
 }

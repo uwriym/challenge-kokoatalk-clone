@@ -1,0 +1,24 @@
+.only-mobile {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, var(--brown), #c2a782, #d2c1a7);
+  font-size: 30px;
+  z-index: 4;
+  color: rgb(116, 76, 2);
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .only-mobile {
+    display: none;
+  }
+}
+
+#strong {
+  font-weight: 700;
+  color: rgb(255, 54, 19);
+}
