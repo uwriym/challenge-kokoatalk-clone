@@ -59,9 +59,10 @@
   0% {
     transform: none;
   }
-  50% {
+  30% {
     transform: translateY(-7px);
   }
+  60%,
   100% {
     transform: none;
   }

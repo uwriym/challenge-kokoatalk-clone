@@ -7,7 +7,7 @@
   width: 100%;
   padding: 3px 5px;
   box-sizing: border-box;
-  background-color: white;
+  background-color: var(--background-brown);
   z-index: 2;
 }
 .inside-screen .status-bar,

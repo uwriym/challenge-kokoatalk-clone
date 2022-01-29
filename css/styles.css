@@ -26,6 +26,7 @@
 body {
   font-family: balsamiq sans;
   margin-bottom: 100px;
+  background-color: var(--background-brown);
 }
 .chat-body {
   margin-bottom: 0;
